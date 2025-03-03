@@ -1,0 +1,20 @@
+< a > Before NLP We first do text preprocesesing 
+< b > Bascially text preprocesesing means to clean and transform an unstructured data into structure data which should be ready for analysis .     Some common methods are :
+    
+    <1> Tokenisation ---- > This means to divide input text into smaller parts .
+    
+    <2> Stemming and lemmatazation -------> Bascially Stemming means to reduce a word to its base form , by rmeoving any kind of suffix or prefix so that they can term in a single group ... Whereas lemmatazation menas to reduce a partiular word in its base or dictinoary form . example runnig = run , better = good , children = child etc
+
+    Note : If u want proper words then we can use lemmatazation but the cache is it will be slow whereas if we want to prefer spped over accuracy then we can go for stemming 
+
+    example for stemming is : playing , played ,plays all will give the smae answer as play 
+    example for lemmatazation is : playing , better ,went  all will give the answer  as play , goood ,go
+
+    <3>Bag of Words : Bascially in this method the result is represented by the count of the words in the input document . Essentially it converts text into a set of unique words with there count of frequency .
+       Stop Words : Bascially stop words refer like this , is , an , the etc . These words are common words which can be removed from the document to get the meaningful information from the document 
+
+
+
+
+
+
